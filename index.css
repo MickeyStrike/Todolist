@@ -1,0 +1,109 @@
+/* html{
+    background: url('image/33466126-0-Artboard-1.png') white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}*/
+
+
+body{
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    background: url('image/33466126-0-Artboard-1.png') white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    overflow: auto;
+    white-space: nowrap;
+    vertical-align: bottom;
+    padding: 15px;
+    display: inline-block;
+    overflow: 'auto';
+    white-Space: 'nowrap';
+    vertical-Align: 'top';
+    padding: '15px';
+};
+
+header{
+    background: white;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+
+.box {
+    box-shadow: hsla(0, 0%, 0%, 0.15);
+    white-space: normal;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+
+    background: black;
+    opacity: 0.75;
+}
+
+.box-newSchedule {
+    box-shadow: hsla(0, 0%, 0%, 0.15);
+    white-space: normal;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 20.5%;
+    padding: 15px;
+    border-radius: 15px;
+
+    background: black;
+    opacity: 0.75;
+}
+
+.input-padding{
+    padding: 10px;
+}
+
+span{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+button{
+    background: white;
+    opacity: 0.8;
+    border-style: none;
+}
+
+.input-padding-UpdateDelete{
+    margin-left: 2px;
+}
+
+button:hover{
+    background: white;
+    opacity: 1;
+}
+
+span:hover,li:hover{
+    color: orange;
+}
+
+.box-newSchedule:hover,.box:hover{
+    opacity: 1;
+}
+
+i{
+    color: white;
+    margin-left: 90%;
+    cursor: pointer;
+}
